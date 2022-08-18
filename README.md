@@ -1,9 +1,9 @@
-# Fabric Example Mod
+# Simple Trade Mod
 
-## Setup
+A Simple Serverside trading mod.
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
-
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+To initiate a trade, run the command `/trade request <player-name>`\
+The player will receive a message that allows them to either accept the trade or deny it.\
+Accepting will immediately open the trade window. Unless the other player is currently in another gui.\
+After placing all the trade offers, you and your trade partner must click on the lime terracotta to confirm the trade\
+and lock the offerings. Should your trade partner change their offer after you've confirmed yours, it will unlock again, as a security measure.
